@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Fisrt Application</string>
+    <string name="title_activity_scrolling">상세 소개 화면</string>
+    <string name="large_text">
+        "저의 상세 페이지입니다. 저는 이홍로입니다."
+    </string>
+    <string name="action_settings">Settings</string>
+</resources>

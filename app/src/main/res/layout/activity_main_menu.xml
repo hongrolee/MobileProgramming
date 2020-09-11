@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainMenuActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_goNaver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#82F101"
+            android:text="네이버 홈페이지 열기"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_callPolice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#DD0000"
+            android:text="112 신고전화 걸기"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_openGallery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F8DF00"
+            android:text="갤러리 열기"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_finish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="끝내기"
+            android:textStyle="bold"
+            android:textSize="24dp"/>
+    </LinearLayout>
+</RelativeLayout>
