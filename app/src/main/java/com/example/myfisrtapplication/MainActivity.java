@@ -20,10 +20,10 @@ public class MainActivity extends AppCompatActivity {
         char a = 'a';
         String s = "안드로이드 프로그래밍 수업입니다.";
         int array[] = new int[4];
-        array[0] = 1;
-        array[1] = 2;
-        array[2] = 3;
-        array[3] = 4;
+        array[0] = 111;
+        array[1] = 222;
+        array[2] = 333;
+        array[3] = 444;
 
         if((x==0)||(y==1.2f)) {
 
