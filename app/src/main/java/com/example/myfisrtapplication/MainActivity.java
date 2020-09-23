@@ -14,6 +14,22 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
+        Car myCar = new Car("포르쉐", "빨강", "현대", 3);
+        myCar.setModelName("제네시스");
+
+        Car yourCar = new Car();
+        yourCar.setModelName();
+
+
+        Bus myBus = new Bus();
+        myBus.getModelName();
+
+
+
+        //int x = myCar.setModelName("포르쉐");
+        //myCar.setType(4);
+
+
         int x = 0;
         float y = 1.2f;
         double z = 1.523231;
