@@ -15,7 +15,9 @@
             android:id="@+id/btn_goNaver"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#82F101"
+            android:layout_gravity="bottom|right"
+            android:background="#B2FF58"
+            android:gravity="right"
             android:text="네이버 홈페이지 열기"
             android:textSize="24dp"
             android:textStyle="bold" />
@@ -38,12 +40,29 @@
             android:textSize="24dp"
             android:textStyle="bold" />
 
-        <Button
-            android:id="@+id/btn_finish"
-            android:layout_width="match_parent"
+        <LinearLayout
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="끝내기"
-            android:textStyle="bold"
-            android:textSize="24dp"/>
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_init"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="초기화"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_finish"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="끝내기"
+                android:textSize="24dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
     </LinearLayout>
 </RelativeLayout>
