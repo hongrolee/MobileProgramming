@@ -4,18 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:clickable="false"
+    android:padding="30dp"
     tools:context=".MainMenuActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:paddingLeft="30dp">
 
         <Button
             android:id="@+id/btn_goNaver"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|right"
+            android:layout_margin="20dp"
             android:background="#B2FF58"
             android:gravity="right"
             android:text="네이버 홈페이지 열기"
@@ -27,15 +31,18 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#DD0000"
+            android:enabled="false"
             android:text="112 신고전화 걸기"
             android:textSize="24dp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:visibility="visible" />
 
         <Button
             android:id="@+id/btn_openGallery"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#F8DF00"
+            android:clickable="false"
             android:text="갤러리 열기"
             android:textSize="24dp"
             android:textStyle="bold" />
@@ -50,6 +57,7 @@
                 android:id="@+id/btn_init"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:rotation="45"
                 android:text="초기화"
                 android:textSize="24sp"
                 android:textStyle="bold" />
@@ -63,6 +71,50 @@
                 android:textStyle="bold" />
 
         </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="이것은 텍스트 뷰입니다. 이것은 텍스트 뷰입니다. 이것은 텍스트 뷰입니다."
+            android:textColor="#3F51B5"
+            android:textSize="30dp"
+            android:textStyle="bold|italic"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="이것은 텍스트 뷰입니다. 이것은 텍스트 뷰입니다. 이것은 텍스트 뷰입니다."
+            android:textColor="#F44336"
+            android:textSize="30dp"
+            android:textStyle="bold|italic"
+            android:typeface="sans" />
+
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="여기에 아이디를 입력하세요."
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/et_pw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="여기에 패스워드를 입력하세요."
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="로그인" />
 
     </LinearLayout>
 </RelativeLayout>
