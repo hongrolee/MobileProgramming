@@ -9,15 +9,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".LayoutTestActivity"></activity>
-        <activity android:name=".BasicTextActivity">
+        <activity android:name=".ClockTestActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainMenuActivity"></activity>
+        <activity android:name=".FrameLayoutTestActivity">
+        </activity>
+        <activity android:name=".GridLayoutTestActivity" />
+        <activity android:name=".CalculatorActivity"></activity>
+        <activity android:name=".TableLayoutTestActivity" />
+        <activity android:name=".JavaGUITestActivity" />
+        <activity android:name=".LayoutTestActivity" />
+        <activity android:name=".BasicTextActivity" />
+        <activity android:name=".MainMenuActivity" />
         <activity
             android:name=".ScrollingActivity"
             android:label="@string/title_activity_scrolling"
